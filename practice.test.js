@@ -1,15 +1,14 @@
 const {capitalize, reverseString, calculator, caesarCipher, analyzeArray} = require('./practice');
 
 test('capitalize first letter', () => {
-	expect(capitalize(man)).toBe('Man')
+	expect(capitalize('man')).toBe('Man')
 });
 
 test('reverses strings', () => {
 	expect(reverseString('word')).toBe('drow')
 });
-
 test('adds two numbers', () => {
-	expect(calculator.add(1, 2)).toBe(4)
+	expect(calculator.add(1, 2)).toBe(3)
 });
 
 test('subtract two numbers', () => {
